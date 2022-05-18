@@ -1,0 +1,54 @@
+body{
+    /* background-color: #011A28; */
+    background-color: #2D080A;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.gridCards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 0.5rem;
+    margin: 0;
+}
+
+.imgMemo{
+    width: 7.5rem;
+    margin: 0.5rem;
+}
+
+.cardMemoFront{
+    display: none;
+    /* border: 4px solid #AD8350; */
+    border: 4px solid #D58936;
+    border-radius: 8px;
+    /* background-color: #764134; */
+    background-color: #87531D;
+    width: 8.5rem;
+    height: 8.5rem;
+    margin: auto;
+}
+
+.cardMemoBack{
+    /* display: none; */
+    border: 4px solid #D58936;
+    border-radius: 8px;
+    background-color: #87531D;
+    width: 8.5rem;
+    height: 8.5rem;
+    margin: auto;
+}
+
+#newPlay{
+    padding: 1rem 2rem;
+    background-color: #87531D;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.5rem;
+    font-family: 'Zen Loop', cursive;
+}
